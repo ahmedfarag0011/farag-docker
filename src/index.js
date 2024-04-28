@@ -15,6 +15,6 @@ const DB_HOST= 'mongo';
 const URI=('mongodb://${DB_USER}:${DB_PSSWORD}@${DB_HOST}:${DB_PORT}');
 mongoose.connect(URI).then(() => console.log('conect to db ..')).then((err) => console.log('failed db ..: ',err));
 
-app.get('/', (req, res) => res.send('<h1> HELLO AHMED! hi hi </h1>'));
+app.get('/', (req, res) => res.send('<h1> HELLO AHMED Farag!</h1>'));
 
 app.listen(PORT, () => console.log('app is up and running on port: ${PORT} '));
